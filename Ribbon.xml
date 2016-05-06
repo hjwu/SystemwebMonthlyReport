@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns">
+        <group id="ContentGroup" label="工作日誌">
+          <button id="btnOnLeave" label="公司請假"
+               onAction="ActOnLeave" />
+          <button id="btnCoding" label="程式撰寫"
+               onAction="ActCoding" />
+          <button id="btnMeeting" label="裝忙開會"
+               onAction="ActMeeting" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
