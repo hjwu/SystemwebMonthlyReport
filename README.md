@@ -1,6 +1,8 @@
 #SystemwebMonthlyReport
 
-本 Add-In 僅提供[博暉科技](http://www.systemweb.com.tw/) 同仁快速撰寫每月工作日誌使用。
+本 Add-In 僅提供[博暉科技](http://www.systemweb.com.tw/)同仁快速撰寫每月工作日誌使用。
+
+歡迎其他同仁自行修改。
 
 ##How to install
 
