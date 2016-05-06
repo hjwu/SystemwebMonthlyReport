@@ -2,7 +2,7 @@
 
 本 Add-In 僅提供[博暉科技](http://www.systemweb.com.tw/)同仁快速撰寫每月工作日誌使用。
 
-歡迎其他同仁自行修改。
+目前預設使用環境為 `Outlook 2013`，歡迎其他同仁自行修改。
 
 ##How to install
 
