@@ -27,7 +27,6 @@ namespace SystemwebMonthlyReport
         {
             Outlook.TaskItem task = Application.CreateItem(
             Outlook.OlItemType.olTaskItem) as Outlook.TaskItem;
-
             task.Subject = subject;
             int year = DateTime.Now.Year;
             int month = DateTime.Now.Month;
@@ -42,6 +41,7 @@ namespace SystemwebMonthlyReport
             task.Mileage = task.StartDate.ToString("yyyy/MM/dd");
             task.DateCompleted = task.DueDate;
             task.Save();
+            task.Move(Application.ActiveExplorer().CurrentFolder);
         }
 
         #region VSTO 產生的程式碼
